@@ -1,0 +1,32 @@
+@media (max-width: 574px) {
+	.hero-des {
+		max-width: 90%;
+	}
+
+	.preloader__heading img {
+		width: 80%;
+	}
+
+	header .button {
+		display: none;
+	}
+
+	header .header__wrapper-overlay-menu {
+		align-content: space-between;
+	}
+
+	header .mobile-menu-btn {
+		display: block;
+	}
+	.header__overlay-menu-back {
+		left: unset;
+		right: 50px;
+		top: -1px;
+	}
+}
+
+@media (min-width: 574.1px and max-width: 767.98px) {
+	.hero-des {
+		max-width: 70%;
+	}
+}

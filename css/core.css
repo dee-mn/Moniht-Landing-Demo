@@ -1,0 +1,120 @@
+:root:root {
+	--main-color: #D1FF03;
+}
+
+header img {
+	width: auto;
+	height: 20px;
+}
+
+html.moniht {
+	line-height: 1.5rem;
+}
+
+.moniht .text-main {
+	color: var(--main-color);
+}
+
+.moniht .text-main,
+.header.opened[data-arts-header-overlay-theme=dark] a.text-main {
+	color: #D1FF03;
+}
+
+.mobile-menu-btn a{
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+.moniht .bg-main {
+	background: #D1FF03;
+}
+
+.bg-main {
+	background: var(--main-color);
+}
+
+.bg-black {
+	background: #000;
+}
+
+.hero-des {
+	max-width: 50%;
+	font-weight: 500;
+	line-height: 1.5rem;
+}
+
+.preloader__heading img {
+	width: 40%;
+}
+
+[data-arts-theme-text=light] h5.preloader__counter,
+[data-arts-theme-text=light] .preloader__counter.h5 {
+	color: var(--color-gray-1);
+}
+
+[data-arts-theme-text=light] .preloader__circle {
+	color: var(--color-gray-1);
+}
+
+.moniht .text-main .change-text-hover__line {
+	background-color: var(--main-color);
+}
+
+.moniht .btn-main.button_bordered.button_white {
+	border-color: var(--main-color);
+	color: var(--main-color);
+}
+
+.moniht .btn-main.button_bordered.button_white.bg-main {
+	color: #000;
+}
+
+.moniht .slider__wrapper-button-footer .btn-main.button_bordered.button_white {
+	background-color: var(--main-color);
+	color: #000;
+}
+
+.moniht .header__wrapper-menu a {
+	font-weight: 500;
+}
+
+header .button {
+	margin-right: 20px;
+}
+
+.menu-item.view-all a{
+	font-size: 1em;
+	margin-top: 1rem;
+}
+
+.header__widget:not(.mobile-menu-btn) a {
+	text-decoration: underline;
+}
+
+.mobile-menu-btn {
+	display: none;
+}
+
+.mt-1 {
+	margin-top: 1rem;
+}
+
+.mt-2 {
+	margin-top: 2rem;
+}
+
+.mt-3 {
+	margin-top: 3rem;
+}
+
+.mt-4 {
+	margin-top: 3rem;
+}
+
+.mt-5 {
+	margin-top: 3rem;
+}
+
+.mt-6 {
+	margin-top: 3rem;
+}
